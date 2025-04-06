@@ -145,7 +145,9 @@ class Game {
     this.board = this.transpose(this.board);
 
     this.renderBoard();
+
     this.addRandomTile();
+
     this.checkGameStatus();
   }
 
